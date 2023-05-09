@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Chat3</title>
+        <meta name="description" content="Chat3">
+        <meta name="author" content="Chat3">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/c3.css">
+
+    </head>
+    <body>
+
+    <div class="container-fluid">
+
+        <div class="c3-app">
+            <form>
+                <table class="grid">
+                    <tr>
+                        <td colspan="3">
+
+                            <div class="c3-panel">
+                                <select>
+                                    <option>Load a collection...</option>
+                                    <option>My chats on astrology</option>
+                                    <option>Chats on copy writing</option>
+                                    <option>Animal stuff</option>
+                                </select>
+                                <button class="btn btn-secondary">
+                                    Save
+                                </button>
+                                <div class="c3-spacer">
+                                : <!-- better spacer here -->
+                                </div>
+                                <input type="search" name="c3-search">
+                                <button class="btn btn-secondary">
+                                Search
+                                </button>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <div class="c3-panel">
+                                <table class="c3-list">
+                                    <tr>
+                                        <td>
+
+                                            <button class="btn btn-secondary">
+                                                New Chat
+                                            </button>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chats-sep">Today</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chat-item">Reasearch on plants</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chat-item">Eggplan pizza recipes</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chats-sep">Last 7 days</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chat-item">Astronomy &amp; astrology</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chat-item">Marketing promotions</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chats-sep">Last week</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chat-item">1800s horoscopes</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span class="c3-chats-sep">Last month</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            ---
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </td>
+                        <td>
+
+                            <!-- ExchangePanel -->
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td>
+
+                                            <!-- SystemTextInputPanel -->
+
+                                            <div class="c3-panel">
+                                                <p>
+                                                    System
+                                                </p>
+                                                <textarea class="c3-system-input">
+
+                                                </textarea>
+
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+
+                                            <!-- UAExchangePanel-->
+
+                                            <div class="c3-xchg-panel">
+                                                <div class="c3-xchg-unit">
+                                                    <button class="btn btn-secondary">
+                                                        User
+                                                    </button>
+                                                    <textarea class="c3-xchg-input">
+
+                                                    </textarea>
+                                                </div>
+                                                <div class="c3-xchg-unit">
+                                                    <button class="btn btn-secondary">
+                                                        Assistant
+                                                    </button>
+                                                    <textarea class="c3-xchg-input">
+
+                                                    </textarea>
+                                                </div>
+                                                <div class="c3-xchg-unit">
+                                                    <button class="btn btn-primary">
+                                                        + Add message...
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+
+                                            <!-- ExchangeControlPanel -->
+                                            <div class="c3-panel">
+                                                <button class="btn btn-success">
+                                                    Sumbit
+                                                </button>
+                                            </div>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </td>
+                        <td>
+
+                            <!-- ExchangeSettingsPanel -->
+                            <div class="c3-panel">
+                                <div class="c3-exchange-setting-input">
+                                    <select class="c3-select-input" name="">
+                                        <option class="" value="">Select mode...</option>
+                                    </select>
+                                </div>
+                                <div class="c3-exchange-setting-input">
+                                    <select class="c3-select-input" name="">
+                                        <option class="" value="">Select model...</option>
+                                    </select>
+                                </div>
+                                <div class="c3-exchange-setting-input">
+                                    <select class="c3-select-input" name="">
+                                        <option class="" value="">Select temperature...</option>
+                                    </select>
+                                </div>
+                                <div class="c3-exchange-setting-input">
+                                    <select class="c3-select-input" name="">
+                                        <option class="" value="">Select maximum output...</option>
+                                        <option class="" value="">256</option>
+                                        <option class="" value="">512</option>
+                                        <option class="" value="">1024</option>
+                                        <option class="" value="">1536</option>
+                                        <option class="" value="">2048</option>
+                                        <option class="" value="">3072</option>
+                                        <option class="" value="">4096</option>
+                                    </select>
+                                </div>
+                                <div class="c3-exchange-setting-input">
+                                    <select class="c3-select-input" name="">
+                                        <option class="" value="">Select Top p...</option>
+                                    </select>
+                                </div>
+                                <div class="c3-exchange-setting-input">
+                                    <select class="c3-select-input" name="">
+                                        <option class="" value="">Select presence penalty...</option>
+                                    </select>
+                                </div>
+                                <div class="c3-exchange-setting-input">
+                                    <select class="c3-select-input" name="">
+                                        <option class="" value="">Select frequency penalty...</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+
+                            <!-- StatusBar -->
+
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
