@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.c3-panel {
+	padding: 3px;
+	background-color: #eee;
+}
+
+.c3-app, .grid {
+	width: 100%;
+}
+
+.c3-chats-sep {
+	font-weight: bold;
+	border-top: 1px solid darkgrey;
+	width: 100%;
+	display: inline-flex;
+}
+
+.c3-chat-item {
+	padding-left: 5px;
+}
+
+.c3-spacer {
+	max-width: auto;
+	min-width: 100px;
+	display: inline;
+}
+
+.c3-system-input {
+	width: 700px;
+	height: 50px;
+	display: block;
+}
+
+.c3-xchg-input {
+	display: block;
+	position: relative;
+	width: 80%;
+	height: 20px;
+	float: right;
+}
+
+.c3-xchg-unit {
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+.c3-xchg-role-button {
+	height: 20px;
+}
+
+.c3-select-input {
+	width: 100%;
+}
