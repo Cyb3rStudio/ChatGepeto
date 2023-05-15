@@ -1,49 +1,61 @@
-<div class="c3-app">
+<div class="c3-app container-fluid">
     <form>
-        <table class="grid">
-            <tr>
-                <td colspan="3">
+        <div class="grid">
+
+            <div class="row">
+                <div class="col-12">
 
                     <!-- AppNavBar -->
                     <chatgepeto-app-nav-bar></chatgepeto-app-nav-bar>
 
-                </td>
-            <tr>
-                <td colspan="3">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
 
                     <!-- CollectionsBar -->
                     <chatgepeto-collections-bar></chatgepeto-collections-bar>
 
-                </td>
-            </tr>
-            <tr>
-                <td>
+                </div>
+            </div>
 
-                    <!-- ChatCollectionPanel -->
-                    <chatgepeto-chat-collection-panel></chatgepeto-chat-collection-panel>
+            <div class="row">
+                <div class="col-12">
 
-                </td>
-                <td>
+                    <div class="row">
+                        <div class="col-1">
 
-                    <!-- ExchangePanel -->
-                    <chatgepeto-exchange-panel></chatgepeto-exchange-panel>
+                            <!-- ChatCollectionPanel -->
+                            <chatgepeto-chat-collection-panel></chatgepeto-chat-collection-panel>
 
-                </td>
-                <td>
+                        </div>
+                        <div class="col-8">
 
-                    <!-- ExchangeSettingsPanel -->
-                    <chatgepeto-exchange-settings-panel></chatgepeto-exchange-settings-panel>
+                            <!-- ExchangePanel -->
+                            <chatgepeto-exchange-panel></chatgepeto-exchange-panel>
 
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
+                        </div>
+                        <div class="col-3">
+
+                            <!-- ExchangeSettingsPanel -->
+                            <chatgepeto-exchange-settings-panel></chatgepeto-exchange-settings-panel>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
 
                     <!-- StatusBar -->
                     <chatgepeto-status-bar></chatgepeto-status-bar>
 
-                </td>
-            </tr>
-        </table>
+                </div>
+            </div>
+
+        </div>
     </form>
 </div>
