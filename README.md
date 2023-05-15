@@ -1,6 +1,8 @@
 # ChatGepeto
 A powerful Playground for OpenAI's ChatGPT API - ChatGPT Playground Plus
 
+[GitHub](https://github.com/Cyb3rStudio/ChatGepeto) - [chatgepeto.app](https://chatgepeto.app)
+
 ## Actual interface of the chat playground with GPT-4
 
 ![Screenshot 2023-05-01 213049](https://user-images.githubusercontent.com/3285430/235561589-fcc98ef4-9a80-47af-8e76-ea02b1eada9c.jpg)
